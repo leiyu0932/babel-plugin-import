@@ -1,10 +1,10 @@
 {
-  "name": "babel-plugin-import",
-  "version": "1.13.6",
-  "description": "Component modular import plugin for babel.",
+  "name": "@7fresh/babel-plugin-import",
+  "version": "1.0.0",
+  "description": "Component modular import plugin for babel. fork from babel-plugin-import",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-design/babel-plugin-import"
+    "url": "https://github.com/leiyu0932/babel-plugin-import"
   },
   "main": "lib/index.js",
   "scripts": {
