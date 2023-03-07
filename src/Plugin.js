@@ -92,6 +92,8 @@ export default class Plugin {
         if (stylePath) {
           addSideEffect(file.path, stylePath);
         }
+      } else if (style === 'path') {
+        addSideEffect(file.path, `${path}.css`);
       }
     }
     return { ...pluginState.selectedMethods[methodName] };
